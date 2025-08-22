@@ -1,0 +1,23 @@
+{
+  "name": "Varaprasad Prasad - Lead Engineer Portfolio",
+  "short_name": "VP Portfolio",
+  "description": "Lead Engineer, SEO Expert, and Technical Problem Solver",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e293b",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "32x32",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
