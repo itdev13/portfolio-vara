@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
@@ -199,10 +200,13 @@ export default function Home() {
           <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             {/* Profile Image */}
             <div className="mb-8">
-              <img 
+              <Image 
                 src="/jvvprasad.jpg" 
                 alt="Varaprasad Prasad" 
+                width={160}
+                height={160}
                 className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto border-4 border-white dark:border-gray-800 shadow-xl object-cover"
+                priority
               />
             </div>
             <h1 className="text-5xl md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
@@ -265,7 +269,7 @@ export default function Home() {
                 <div>
               <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">My Journey</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                With over 5 years of cross-domain experience, I've evolved from a full-stack developer 
+                With over 5 years of cross-domain experience, I&apos;ve evolved from a full-stack developer 
                 to a lead engineer driving system architecture and mentoring teams across diverse industries.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
@@ -939,7 +943,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Featured Projects</h2>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Some of the projects I've worked on
+              Some of the projects I&apos;ve worked on
             </p>
           </div>
 
@@ -1380,9 +1384,9 @@ export default function Home() {
               <div className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl p-8 text-white">
                 <h3 className="text-2xl font-bold mb-4">Entrepreneurial Vision</h3>
                 <p className="text-lg leading-relaxed max-w-3xl mx-auto">
-                  "Building technology that brings people together in meaningful ways. AroundU represents my commitment 
+                  &ldquo;Building technology that brings people together in meaningful ways. AroundU represents my commitment 
                   to creating solutions that solve real-world problems while fostering genuine human connections in our 
-                  increasingly digital world."
+                  increasingly digital world.&rdquo;
                 </p>
                 <div className="mt-6 flex justify-center items-center gap-4">
                   <div className="flex items-center gap-2">
@@ -1410,7 +1414,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Get In Touch</h2>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Let's connect and discuss opportunities
+              Let&apos;s connect and discuss opportunities
             </p>
           </div>
 
@@ -1480,7 +1484,7 @@ export default function Home() {
               <div className="text-center mb-8">
                 <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Send Me a Message</h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Have a project in mind? Fill out the form below and I'll get back to you within 24 hours.
+                  Have a project in mind? Fill out the form below and I&apos;ll get back to you within 24 hours.
                 </p>
               </div>
 
@@ -1585,7 +1589,7 @@ export default function Home() {
                       <span className="text-green-800 dark:text-green-200 font-medium">Message Sent Successfully!</span>
                     </div>
                     <p className="text-green-700 dark:text-green-300 text-sm">
-                      Thank you for reaching out. I'll get back to you within 24 hours.
+                      Thank you for reaching out. I&apos;ll get back to you within 24 hours.
                     </p>
                   </div>
                 )}

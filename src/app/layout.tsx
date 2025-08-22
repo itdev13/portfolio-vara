@@ -28,8 +28,17 @@ export const metadata: Metadata = {
   authors: [{ name: "Varaprasad Prasad" }, { name: "Vara Jaladanki" }],
   creator: "Varaprasad Prasad",
   publisher: "Varaprasad Prasad",
-  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-  googlebot: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   verification: {
     google: "your-google-verification-code-here",
   },
