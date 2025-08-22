@@ -1466,7 +1466,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             <a 
               href="mailto:jvvprasad123@gmail.com"
               className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 shadow-sm hover:shadow-lg transition-all hover:scale-105 text-center group"
@@ -1499,11 +1499,11 @@ export default function Home() {
                 <span className="text-white font-bold">in</span>
               </div>
               <h3 className="font-semibold text-gray-900 dark:text-white mb-2">LinkedIn</h3>
-              <p className="text-gray-600 dark:text-gray-300 text-sm">linkedin.com/in/2116</p>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">Connect professionally</p>
             </a>
 
             <a 
-              href="https://github.com/Varma2116"
+              href="https://github.com/itdev13"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 shadow-sm hover:shadow-lg transition-all hover:scale-105 text-center group"
@@ -1512,7 +1512,20 @@ export default function Home() {
                 <span className="text-white font-bold">GH</span>
               </div>
               <h3 className="font-semibold text-gray-900 dark:text-white mb-2">GitHub</h3>
-              <p className="text-gray-600 dark:text-gray-300 text-sm">github.com/Varma2116</p>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">View my code</p>
+            </a>
+
+            <a 
+              href="https://twitter.com/J_VARAPRASAD9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 shadow-sm hover:shadow-lg transition-all hover:scale-105 text-center group"
+            >
+              <div className="w-12 h-12 bg-sky-500 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-sky-600 transition-colors">
+                <span className="text-white font-bold">𝕏</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Twitter/X</h3>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">Follow for updates</p>
             </a>
           </div>
 
