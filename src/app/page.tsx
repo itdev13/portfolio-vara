@@ -172,8 +172,21 @@ export default function Home() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-2xl font-bold text-gray-900 dark:text-white">
-              VP
+            <div className="flex items-center space-x-3">
+              <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-lg">VP</span>
+              </div>
+              <div>
+                <div className="text-xl font-bold text-gray-900 dark:text-white hidden sm:block">
+                  Varaprasad Jaladanki
+                </div>
+                <div className="text-lg font-bold text-gray-900 dark:text-white sm:hidden">
+                  Varaprasad
+                </div>
+                <div className="text-xs text-gray-600 dark:text-gray-400 -mt-1 font-bold">
+                  Lead Engineer
+                </div>
+              </div>
             </div>
             <div className="hidden md:flex space-x-8">
               {['About', 'Skills', 'Experience', 'Projects', 'Founder', 'Contact'].map((item) => (
@@ -411,7 +424,9 @@ export default function Home() {
           {/* Achievement Timeline */}
           <div className="mt-16">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Achievement Timeline</h3>
-            <div className="relative">
+            
+            {/* Desktop Timeline */}
+            <div className="hidden lg:block relative">
               <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-yellow-400 via-orange-400 to-red-400 rounded-full"></div>
               
               <div className="space-y-12">
@@ -443,28 +458,83 @@ export default function Home() {
 
                 {/* 2022-2024 */}
                 <div className="flex items-center">
-                  <div className="flex-1 pr-8"></div>
-                  <div className="w-4 h-4 bg-orange-400 rounded-full border-4 border-white dark:border-gray-900 relative z-10"></div>
-                  <div className="flex-1 text-left pl-8">
-                    <div className="bg-white dark:bg-gray-900 rounded-lg p-4 shadow-md border-r-4 border-orange-400">
+                  <div className="flex-1 text-right pr-8">
+                    <div className="bg-white dark:bg-gray-900 rounded-lg p-4 shadow-md border-l-4 border-orange-400">
                       <h4 className="font-bold text-gray-900 dark:text-white">2022-2024</h4>
                       <p className="text-sm text-gray-600 dark:text-gray-300">Multiple Best Employee Awards at Shopse</p>
                       <p className="text-sm text-gray-600 dark:text-gray-300">22% performance improvements delivered</p>
                     </div>
                   </div>
+                  <div className="w-4 h-4 bg-orange-400 rounded-full border-4 border-white dark:border-gray-900 relative z-10"></div>
+                  <div className="flex-1 pl-8"></div>
                 </div>
 
                 {/* 2019-2022 */}
                 <div className="flex items-center">
-                  <div className="flex-1 text-right pr-8">
-                    <div className="bg-white dark:bg-gray-900 rounded-lg p-4 shadow-md border-l-4 border-red-400">
+                  <div className="flex-1 pr-8"></div>
+                  <div className="w-4 h-4 bg-red-400 rounded-full border-4 border-white dark:border-gray-900 relative z-10"></div>
+                  <div className="flex-1 text-left pl-8">
+                    <div className="bg-white dark:bg-gray-900 rounded-lg p-4 shadow-md border-r-4 border-red-400">
                       <h4 className="font-bold text-gray-900 dark:text-white">2019-2022</h4>
                       <p className="text-sm text-gray-600 dark:text-gray-300">Vedantu Career Progression: Intern → SDE-1 → SDE-2</p>
                       <p className="text-sm text-gray-600 dark:text-gray-300">Outstanding performance & 100K+ students impacted</p>
                     </div>
                   </div>
-                  <div className="w-4 h-4 bg-red-400 rounded-full border-4 border-white dark:border-gray-900 relative z-10"></div>
-                  <div className="flex-1 pl-8"></div>
+                </div>
+              </div>
+            </div>
+
+            {/* Mobile Timeline - Left Line with Right Cards */}
+            <div className="lg:hidden relative">
+              <div className="absolute left-4 top-0 w-1 h-full bg-gradient-to-b from-yellow-400 via-orange-400 to-red-400 rounded-full"></div>
+              
+              <div className="space-y-6">
+                {/* 2025 */}
+                <div className="flex items-start">
+                  <div className="w-3 h-3 bg-yellow-400 rounded-full border-2 border-white dark:border-gray-900 relative z-10 mt-3 ml-2.5"></div>
+                  <div className="ml-6 flex-1">
+                    <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-xl p-5 text-white shadow-lg">
+                      <h4 className="font-bold text-lg mb-2">2025</h4>
+                      <p className="text-yellow-100 text-sm mb-1">Promoted to Lead Engineer at HighLevel</p>
+                      <p className="text-yellow-100 text-sm">Leading system architecture and team mentoring</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 2024 */}
+                <div className="flex items-start">
+                  <div className="w-3 h-3 bg-indigo-500 rounded-full border-2 border-white dark:border-gray-900 relative z-10 mt-3 ml-2.5"></div>
+                  <div className="ml-6 flex-1">
+                    <div className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-xl p-5 text-white shadow-lg">
+                      <h4 className="font-bold text-lg mb-2">2024</h4>
+                      <p className="text-indigo-100 text-sm mb-1">Founded AroundU startup</p>
+                      <p className="text-indigo-100 text-sm">Launched social networking app on iOS & Android</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 2022-2024 */}
+                <div className="flex items-start">
+                  <div className="w-3 h-3 bg-orange-500 rounded-full border-2 border-white dark:border-gray-900 relative z-10 mt-3 ml-2.5"></div>
+                  <div className="ml-6 flex-1">
+                    <div className="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl p-5 text-white shadow-lg">
+                      <h4 className="font-bold text-lg mb-2">2022-2024</h4>
+                      <p className="text-orange-100 text-sm mb-1">Multiple Best Employee Awards at Shopse</p>
+                      <p className="text-orange-100 text-sm">22% performance improvements delivered</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 2019-2022 */}
+                <div className="flex items-start">
+                  <div className="w-3 h-3 bg-red-500 rounded-full border-2 border-white dark:border-gray-900 relative z-10 mt-3 ml-2.5"></div>
+                  <div className="ml-6 flex-1">
+                    <div className="bg-gradient-to-r from-red-500 to-pink-600 rounded-xl p-5 text-white shadow-lg">
+                      <h4 className="font-bold text-lg mb-2">2019-2022</h4>
+                      <p className="text-red-100 text-sm mb-1">Vedantu Career Progression: Intern → SDE-1 → SDE-2</p>
+                      <p className="text-red-100 text-sm">Outstanding performance & 100K+ students impacted</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
