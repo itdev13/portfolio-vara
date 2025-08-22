@@ -688,35 +688,13 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Name Keywords for SEO */}
-          <div className="mt-16">
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Professional Identity</h3>
-            <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 rounded-xl p-8 text-center">
-              <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-4">Also Known As</h4>
-              <div className="flex flex-wrap justify-center gap-3">
-                {['Varaprasad Prasad', 'Vara Prasad', 'Vara Jaladanki', 'Venkata Vara Prasad', 'Engineer Vara', 'Jaladanki Varaprasad'].map((name) => (
-                  <span key={name} className="px-4 py-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full text-sm font-medium shadow-sm border border-gray-200 dark:border-gray-700">
-                    {name}
-                  </span>
-                ))}
-              </div>
-              <p className="text-gray-600 dark:text-gray-300 mt-4 text-sm">
-                Lead Engineer • SEO Expert • Technical Problem Solver • Best Freelancer • System Design Specialist
-              </p>
-            </div>
-          </div>
-
           {/* Languages */}
           <div className="mt-16">
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Languages</h3>
-            <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               <div className="text-center">
                 <h4 className="font-semibold text-gray-900 dark:text-white mb-2">English</h4>
                 <p className="text-blue-600 dark:text-blue-400 text-sm">Full Professional Proficiency</p>
-              </div>
-              <div className="text-center">
-                <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Hindi</h4>
-                <p className="text-green-600 dark:text-green-400 text-sm">Professional Working Proficiency</p>
               </div>
               <div className="text-center">
                 <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Telugu</h4>
