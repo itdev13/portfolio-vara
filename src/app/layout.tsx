@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     shortcut: '/favicon.svg'
   },
   manifest: '/manifest.json',
-  keywords: "Varaprasad Prasad, Vara, Jaladanki, Lead Engineer, SEO Expert, Freelancer, Technical Problem Solver, React Developer, Node.js, Python, AWS, System Design, HighLevel, AroundU Founder, Full Stack Developer, EdTech, FinTech, CRM, Bangalore Engineer, India Developer, Best Freelancer India, Technical Consultant, Software Architect",
+  keywords: "Varaprasad Prasad, Vara Jaladanki, Lead Engineer, Senior Software Engineer, SEO Expert, Freelancer India, Technical Problem Solver, React Developer, Node.js Developer, Python Developer, AWS Expert, System Design, HighLevel CRM, AroundU Founder, Full Stack Developer, EdTech Expert, FinTech Developer, CRM Developer, Bangalore Engineer, India Developer, Best Freelancer India, Technical Consultant, Software Architect, MongoDB, Firebase, Vue.js, Tailwind CSS, Next.js, JavaScript, TypeScript, Microservices, API Development, Database Design, Cloud Computing, DevOps, Agile Development, Software Engineering, Web Development, Mobile App Development, Startup CTO, Tech Lead, Engineering Manager, Code Review, Performance Optimization, Scalable Systems, Modern Web Technologies",
   authors: [{ name: "Varaprasad Prasad" }, { name: "Vara Jaladanki" }],
   creator: "Varaprasad Prasad",
   publisher: "Varaprasad Prasad",
@@ -40,10 +40,11 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "your-google-verification-code-here",
+    google: "your-google-verification-code-here", // Add your Google Search Console verification code
+    yandex: "your-yandex-verification-code", // Optional: Yandex verification
   },
   alternates: {
-    canonical: "https://your-domain.com",
+    canonical: "https://www.varaprasad.dev",
   },
   category: "Technology",
   classification: "Software Engineering Portfolio",
@@ -53,7 +54,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Varaprasad Prasad Portfolio",
-    url: "https://your-domain.com",
+    url: "https://www.varaprasad.dev",
     images: [
       {
         url: "/jvvprasad.jpg",
