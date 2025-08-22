@@ -57,11 +57,11 @@ export const metadata: Metadata = {
     url: "https://www.varaprasad.dev",
     images: [
       {
-        url: "https://www.varaprasad.dev/jvvprasad.jpg",
+        url: "https://www.varaprasad.dev/social-banner.svg",
         width: 1200,
         height: 630,
-        alt: "Varaprasad Prasad - Lead Engineer, Technical Expert & Freelancer",
-        type: "image/jpeg",
+        alt: "Varaprasad Prasad - Lead Engineer & Freelance Expert | React, Node.js, Python, AWS",
+        type: "image/svg+xml",
       },
     ],
   },
@@ -69,9 +69,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Varaprasad Prasad - Lead Engineer & Freelancer",
     description: "🚀 Lead Engineer @HighLevel | React, Node.js, Python Expert | 5+ years EdTech/FinTech/CRM | Available for freelance projects",
-    images: ["https://www.varaprasad.dev/jvvprasad.jpg"],
-    creator: "@varaprasad_dev",
-    site: "@varaprasad_dev",
+    images: ["https://www.varaprasad.dev/social-banner.svg"],
+    creator: "@J_VARAPRASAD9",
+    site: "@J_VARAPRASAD9",
   },
   other: {
     "geo.region": "IN-KA",
