@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Varaprasad Prasad | Lead Engineer | SEO Expert | Freelancer | Vara Jaladanki",
-  description: "Lead Engineer Varaprasad Prasad (Vara Jaladanki) - Expert in React, Node.js, Python, AWS. Best freelancer for technical problem solving, SEO optimization, system design. 5+ years cross-domain expertise in EdTech, FinTech, CRM. AroundU founder.",
+  title: "Varaprasad Prasad - Lead Engineer & Freelance Expert | React, Node.js, Python",
+  description: "🚀 Lead Engineer @HighLevel with 5+ years experience in React, Node.js, Python, AWS. Expert freelancer for EdTech, FinTech, CRM projects. AroundU founder. Available for technical consulting & full-stack development.",
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "your-google-verification-code-here", // Add your Google Search Console verification code
+    google: "your-google-verification-code-here", // Replace with actual code from Google Search Console
     yandex: "your-yandex-verification-code", // Optional: Yandex verification
   },
   alternates: {
@@ -49,27 +49,29 @@ export const metadata: Metadata = {
   category: "Technology",
   classification: "Software Engineering Portfolio",
   openGraph: {
-    title: "Varaprasad Prasad | Lead Engineer | SEO Expert | Technical Problem Solver",
-    description: "Lead Engineer with 5+ years expertise. Best freelancer for React, Node.js, Python, AWS. SEO optimization specialist. AroundU founder.",
+    title: "Varaprasad Prasad - Lead Engineer & Freelance Expert",
+    description: "🚀 Lead Engineer @HighLevel | 5+ years React, Node.js, Python | EdTech, FinTech, CRM Expert | AroundU Founder | Available for freelance projects",
     type: "website",
     locale: "en_US",
-    siteName: "Varaprasad Prasad Portfolio",
+    siteName: "Varaprasad Prasad - Lead Engineer Portfolio",
     url: "https://www.varaprasad.dev",
     images: [
       {
-        url: "/jvvprasad.jpg",
+        url: "https://www.varaprasad.dev/jvvprasad.jpg",
         width: 1200,
         height: 630,
-        alt: "Varaprasad Prasad - Lead Engineer & SEO Expert",
+        alt: "Varaprasad Prasad - Lead Engineer, Technical Expert & Freelancer",
+        type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Varaprasad Prasad | Lead Engineer | SEO Expert",
-    description: "Lead Engineer & Technical Problem Solver. Expert in React, Node.js, Python, AWS. Best freelancer for system design & SEO optimization.",
-    images: ["/jvvprasad.jpg"],
-    creator: "@your-twitter-handle",
+    title: "Varaprasad Prasad - Lead Engineer & Freelancer",
+    description: "🚀 Lead Engineer @HighLevel | React, Node.js, Python Expert | 5+ years EdTech/FinTech/CRM | Available for freelance projects",
+    images: ["https://www.varaprasad.dev/jvvprasad.jpg"],
+    creator: "@varaprasad_dev",
+    site: "@varaprasad_dev",
   },
   other: {
     "geo.region": "IN-KA",
