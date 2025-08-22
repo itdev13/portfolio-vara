@@ -228,7 +228,7 @@ export default function Home() {
               </span>
           </h1>
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-4 max-w-3xl mx-auto">
-              Lead Engineer & SEO Expert specializing in system design, scalable architecture, and technical problem solving
+              Lead Engineer & Technical Problem Solver specializing in system design, scalable architecture, and technical problem solving
             </p>
             <p className="text-lg text-gray-500 dark:text-gray-400 mb-6 max-w-2xl mx-auto">
               Best freelancer with 5+ years expertise • Technical problem solver • SEO optimization specialist
