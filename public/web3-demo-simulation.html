@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web3 Demo (Simulation Mode) - Varaprasad Prasad</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .header p {
+            color: #7f8c8d;
+            font-size: 16px;
+        }
+
+        .demo-notice {
+            background: #fff3cd;
+            border: 2px solid #ffc107;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .wallet-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border: 2px solid #e9ecef;
+        }
+
+        .wallet-section.connected {
+            border-color: #27ae60;
+            background: #d5f4e6;
+        }
+
+        .connect-button {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 10px;
+        }
+
+        .connect-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(52, 152, 219, 0.3);
+        }
+
+        .connect-button:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .wallet-info {
+            display: none;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .wallet-info.show {
+            display: block;
+        }
+
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .info-item:last-child {
+            border-bottom: none;
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .info-value {
+            color: #7f8c8d;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            word-break: break-all;
+        }
+
+        .balance {
+            font-size: 18px;
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        .network-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            background: #3498db;
+            color: white;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .success {
+            background: #d4edda;
+            border: 2px solid #27ae60;
+            color: #155724;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .feature {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            text-align: left;
+        }
+
+        .feature h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .feature p {
+            color: #7f8c8d;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .code-example {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            text-align: left;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            overflow-x: auto;
+        }
+
+        .code-example h4 {
+            color: #3498db;
+            margin-bottom: 10px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .info-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌐 Web3 Demo (Simulation)</h1>
+            <p>MetaMask integration demo with simulated data</p>
+            <p><strong>Built by Varaprasad Prasad - Lead Engineer</strong></p>
+        </div>
+
+        <div class="demo-notice">
+            <strong>Demo Mode:</strong> This simulates MetaMask connection for demonstration purposes. 
+            The real version requires MetaMask browser extension.
+        </div>
+
+        <div class="wallet-section" id="walletSection">
+            <h2>Connect Wallet (Simulated)</h2>
+            <p>Click to simulate MetaMask wallet connection</p>
+            
+            <button class="connect-button" id="connectButton" onclick="simulateConnection()">
+                Connect Wallet (Demo)
+            </button>
+            
+            <div class="wallet-info" id="walletInfo">
+                <div class="info-item">
+                    <span class="info-label">Account:</span>
+                    <span class="info-value" id="accountAddress">Not connected</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Network:</span>
+                    <span class="info-value" id="networkInfo">Unknown</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Balance:</span>
+                    <span class="info-value balance" id="accountBalance">0 ETH</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Chain ID:</span>
+                    <span class="info-value" id="chainId">-</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="messageArea"></div>
+
+        <div class="code-example">
+            <h4>🔧 Real Implementation Code:</h4>
+            <pre>// MetaMask Connection
+const connectWallet = async () => {
+  try {
+    const accounts = await window.ethereum.request({
+      method: 'eth_requestAccounts'
+    });
+    
+    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const balance = await provider.getBalance(accounts[0]);
+    const network = await provider.getNetwork();
+    
+    updateUI(accounts[0], network, balance);
+  } catch (error) {
+    handleError(error);
+  }
+};</pre>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>🔗 Wallet Integration</h3>
+                <p>Real MetaMask connection with account authorization and error handling</p>
+            </div>
+            <div class="feature">
+                <h3>⚡ Blockchain Data</h3>
+                <p>Live balance fetching and network detection from Ethereum blockchain</p>
+            </div>
+            <div class="feature">
+                <h3>🌐 Multi-Network</h3>
+                <p>Support for Ethereum, Polygon, BSC, and other EVM-compatible chains</p>
+            </div>
+            <div class="feature">
+                <h3>🔄 Real-time Updates</h3>
+                <p>Event listeners for account and network changes with automatic UI updates</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function simulateConnection() {
+            const connectButton = document.getElementById('connectButton');
+            const messageArea = document.getElementById('messageArea');
+            const walletSection = document.getElementById('walletSection');
+            const walletInfo = document.getElementById('walletInfo');
+            
+            // Clear previous messages
+            messageArea.innerHTML = '';
+            
+            // Show loading state
+            connectButton.innerHTML = '<div class="loading"></div>Connecting...';
+            connectButton.disabled = true;
+            
+            // Simulate connection delay
+            await new Promise(resolve => setTimeout(resolve, 2000));
+            
+            // Simulate successful connection
+            const mockAccount = '0x742d35Cc6634C0532925a3b8D0C9C0E4C5F8c8c8';
+            const mockBalance = '2.4567';
+            const mockNetwork = 'Ethereum Mainnet';
+            const mockChainId = '1';
+            
+            // Update UI with mock data
+            document.getElementById('accountAddress').textContent = 
+                `${mockAccount.slice(0, 6)}...${mockAccount.slice(-4)}`;
+            document.getElementById('networkInfo').innerHTML = 
+                `<span class="network-badge">${mockNetwork}</span>`;
+            document.getElementById('accountBalance').textContent = 
+                `${mockBalance} ETH`;
+            document.getElementById('chainId').textContent = mockChainId;
+            
+            // Show wallet info and update styling
+            walletInfo.classList.add('show');
+            walletSection.classList.add('connected');
+            connectButton.textContent = 'Connected ✓';
+            
+            // Show success message
+            messageArea.innerHTML = `
+                <div class="success">
+                    <strong>Simulation Complete!</strong> This demonstrates the wallet connection flow. 
+                    In the real version, this data comes directly from your MetaMask wallet and the Ethereum blockchain.
+                </div>
+            `;
+            
+            // Simulate balance updates
+            setTimeout(() => {
+                const newBalance = (parseFloat(mockBalance) + Math.random() * 0.1).toFixed(4);
+                document.getElementById('accountBalance').textContent = `${newBalance} ETH`;
+                
+                messageArea.innerHTML += `
+                    <div class="success">
+                        <strong>Real-time Update:</strong> Balance updated to ${newBalance} ETH 
+                        (simulating blockchain state changes)
+                    </div>
+                `;
+            }, 5000);
+        }
+        
+        // Show initial message
+        window.addEventListener('load', () => {
+            const messageArea = document.getElementById('messageArea');
+            messageArea.innerHTML = `
+                <div class="success">
+                    <strong>Ready to Demo!</strong> Click the button above to simulate MetaMask wallet connection. 
+                    For the real experience, install MetaMask and visit the live version.
+                </div>
+            `;
+        });
+    </script>
+</body>
+</html>
