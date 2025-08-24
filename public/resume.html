@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varaprasad Prasad - Resume | Lead Engineer & Web3 Frontend Specialist</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8fafc;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .header .subtitle {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section h2 {
+            font-size: 1.5em;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #ecf0f1;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section h3 {
+            font-size: 1.2em;
+            color: #34495e;
+            margin-bottom: 8px;
+        }
+
+        .section h4 {
+            font-size: 1.1em;
+            color: #3498db;
+            margin-bottom: 5px;
+        }
+
+        .job {
+            margin-bottom: 25px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .company {
+            color: #3498db;
+            font-weight: 600;
+        }
+
+        .date {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        .job ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .job li {
+            margin-bottom: 5px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-category {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+
+        .skill-category h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skill-tag {
+            background: #3498db;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+
+        .achievements {
+            background: #e8f6fd;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+
+        .achievements ul {
+            margin-left: 20px;
+        }
+
+        .web3-demos {
+            background: #f0f9ff;
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #3498db;
+        }
+
+        .demo-links {
+            display: flex;
+            gap: 20px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .demo-link {
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .demo-link:hover {
+            background: #2980b9;
+        }
+
+        .print-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .print-btn:hover {
+            background: #2980b9;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+            .print-btn {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            .job-header {
+                flex-direction: column;
+            }
+            .contact-info {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="print-btn" onclick="window.print()">📄 Print/Save PDF</button>
+
+    <div class="container">
+        <div class="header">
+            <h1>Varaprasad Prasad</h1>
+            <div class="subtitle">Lead Engineer | Web3 Frontend Specialist | Full Stack Developer</div>
+            <div class="contact-info">
+                <span>📧 jvvprasad123@gmail.com</span>
+                <span>📱 +91-9502803691</span>
+                <span>📍 Bangalore, India</span>
+            </div>
+            <div class="contact-info">
+                <a href="https://www.varaprasad.dev" target="_blank">🌐 Portfolio</a>
+                <a href="https://linkedin.com/in/2116" target="_blank">💼 LinkedIn</a>
+                <a href="https://github.com/itdev13" target="_blank">⚡ GitHub</a>
+                <a href="https://twitter.com/J_VARAPRASAD9" target="_blank">🐦 Twitter</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Professional Summary</h2>
+            <p>Lead Engineer with <strong>5+ years</strong> of hands-on React experience, currently driving frontend architecture at HighLevel CRM serving <strong>100,000+ users</strong>. Expert in modern React ecosystem with proven ability to scale large applications using Redux-Saga, TypeScript, and advanced architectural patterns. Recently diving deep into <strong>Web3 development</strong> with demonstrated ability to build production-ready dApps and wallet integrations. Proven track record in technical leadership, performance optimization (60% improvement), and cross-domain expertise in EdTech, FinTech, and CRM platforms.</p>
+        </div>
+
+        <div class="section">
+            <h2>🚀 Web3 & Blockchain Experience</h2>
+            <div class="web3-demos">
+                <h4>Live Web3 Demos (Built in 2 hours)</h4>
+                <p>Demonstrating rapid Web3 learning and production-ready implementation skills:</p>
+                <div class="demo-links">
+                    <a href="https://www.varaprasad.dev/web3-demo.html" target="_blank" class="demo-link">🦊 Real MetaMask Integration</a>
+                    <a href="https://www.varaprasad.dev/web3-demo-simulation.html" target="_blank" class="demo-link">🎭 Simulation Demo</a>
+                </div>
+                <ul style="margin-top: 15px;">
+                    <li><strong>MetaMask Integration:</strong> Real wallet connection with blockchain data</li>
+                    <li><strong>Multi-Network Support:</strong> Ethereum, Polygon, BSC detection</li>
+                    <li><strong>Real-time Updates:</strong> Balance changes, network switching</li>
+                    <li><strong>Professional UX:</strong> Error handling, loading states, responsive design</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>💼 Professional Experience</h2>
+            
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Lead Engineer</div>
+                        <div class="company">HighLevel CRM</div>
+                    </div>
+                    <div class="date">Jan 2025 - Present</div>
+                </div>
+                <ul>
+                    <li><strong>Promoted to Lead Engineer</strong> based on exceptional performance and technical leadership</li>
+                    <li><strong>Architecture Leadership:</strong> Drive frontend architecture for platform serving 100k+ users</li>
+                    <li><strong>Team Mentoring:</strong> Lead code reviews, mentor developers, architectural decisions</li>
+                    <li><strong>Performance Optimization:</strong> Achieved 60% performance improvement through React optimization</li>
+                    <li><strong>Tech Stack:</strong> React, Redux-Saga, TypeScript, Tailwind CSS, React Query, Node.js</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Senior Software Engineer</div>
+                        <div class="company">HighLevel CRM</div>
+                    </div>
+                    <div class="date">2023 - 2024</div>
+                </div>
+                <ul>
+                    <li><strong>Scalable Development:</strong> Built React features handling 100k+ concurrent users</li>
+                    <li><strong>Redux-Saga:</strong> Complex async flows, middleware management, side effects</li>
+                    <li><strong>Feature Slices Design:</strong> Modular frontend architecture implementation</li>
+                    <li><strong>Performance:</strong> Bundle optimization, code splitting (35% size reduction)</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Founder & CTO</div>
+                        <div class="company">AroundU Social Platform</div>
+                    </div>
+                    <div class="date">2023 - Present</div>
+                </div>
+                <ul>
+                    <li><strong>Live Platform:</strong> <a href="https://www.aroundu.in" target="_blank">aroundu.in</a> - Social networking with advanced Tailwind CSS</li>
+                    <li><strong>System Architecture:</strong> Scalable social media platform with real-time messaging</li>
+                    <li><strong>Technical Leadership:</strong> Led development team, architectural decisions</li>
+                    <li><strong>Advanced UI:</strong> Custom Tailwind configuration, responsive design</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Software Engineer</div>
+                        <div class="company">Shopse (FinTech)</div>
+                    </div>
+                    <div class="date">2022 - 2023</div>
+                </div>
+                <ul>
+                    <li><strong>FinTech Platform:</strong> Secure payment interfaces, financial dashboards</li>
+                    <li><strong>React + TypeScript:</strong> Advanced typing, API integrations</li>
+                    <li><strong>Security:</strong> Payment security, data encryption, secure APIs</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Software Engineering Intern</div>
+                        <div class="company">Vedantu (EdTech)</div>
+                    </div>
+                    <div class="date">2021 - 2022</div>
+                </div>
+                <ul>
+                    <li><strong>EdTech Platform:</strong> Learning management system for thousands of students</li>
+                    <li><strong>Interactive Components:</strong> Learning interfaces, progress tracking</li>
+                    <li><strong>Real-time Features:</strong> Live classes, chat systems, collaboration tools</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🛠️ Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Frontend Mastery</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React (5+ years)</span>
+                        <span class="skill-tag">Redux-Saga</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Shadcn UI</span>
+                        <span class="skill-tag">React Query</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Web3 & Blockchain</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Ethers.js</span>
+                        <span class="skill-tag">MetaMask</span>
+                        <span class="skill-tag">Wagmi (Learning)</span>
+                        <span class="skill-tag">WalletConnect</span>
+                        <span class="skill-tag">Web3 Provider</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Development Tools</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Webpack</span>
+                        <span class="skill-tag">Lerna</span>
+                        <span class="skill-tag">Jest</span>
+                        <span class="skill-tag">React Testing Library</span>
+                        <span class="skill-tag">Feature Slices</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Backend & DevOps</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">GitLab CI/CD</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🏆 Key Achievements</h2>
+            <div class="achievements">
+                <ul>
+                    <li><strong>100,000+ Users:</strong> Built and maintained systems serving large user bases</li>
+                    <li><strong>60% Performance Improvement:</strong> React optimization, bundle splitting, lazy loading</li>
+                    <li><strong>35% Bundle Size Reduction:</strong> Webpack optimization, code splitting</li>
+                    <li><strong>Lead Engineer Promotion:</strong> Promoted based on technical excellence and leadership</li>
+                    <li><strong>Cross-Domain Expertise:</strong> Successfully delivered in EdTech, FinTech, CRM</li>
+                    <li><strong>Rapid Web3 Learning:</strong> Built production-ready demos in 2 hours</li>
+                    <li><strong>Team Leadership:</strong> Mentored 5+ developers, led architectural decisions</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎓 Education</h2>
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Bachelor of Technology - Computer Science</div>
+                        <div class="company">Indian Institute of Technology, Kanpur</div>
+                    </div>
+                    <div class="date">2016 - 2020</div>
+                </div>
+                <p>Strong foundation in computer science fundamentals, data structures, algorithms, and software engineering.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🌟 Domain Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>EdTech (Education)</h4>
+                    <p>Learning management systems, real-time collaboration, student engagement platforms</p>
+                </div>
+                <div class="skill-category">
+                    <h4>FinTech (Finance)</h4>
+                    <p>Payment processing, financial dashboards, security & compliance, transaction management</p>
+                </div>
+                <div class="skill-category">
+                    <h4>CRM (Customer Relations)</h4>
+                    <p>Scalable platforms (100k+ users), complex workflows, performance optimization</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🔗 Portfolio & Live Projects</h2>
+            <ul>
+                <li><strong>Professional Portfolio:</strong> <a href="https://www.varaprasad.dev" target="_blank">varaprasad.dev</a> - Next.js, Tailwind CSS, MongoDB</li>
+                <li><strong>AroundU Social Platform:</strong> <a href="https://www.aroundu.in" target="_blank">aroundu.in</a> - Social networking with advanced Tailwind</li>
+                <li><strong>Web3 Real Demo:</strong> <a href="https://www.varaprasad.dev/web3-demo.html" target="_blank">MetaMask Integration</a></li>
+                <li><strong>Web3 Simulation:</strong> <a href="https://www.varaprasad.dev/web3-demo-simulation.html" target="_blank">Complete UX Flow</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Availability</h2>
+            <ul>
+                <li><strong>Availability:</strong> Immediate start for full-time remote work</li>
+                <li><strong>Salary Expectation:</strong> $8,500 - $9,000/month (Lead Engineer experience)</li>
+                <li><strong>Work Style:</strong> Independent contributor with architectural decision-making</li>
+                <li><strong>Time Zone:</strong> Flexible for US/EU collaboration (IST based)</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Add some interactivity
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scroll for internal links
+            const links = document.querySelectorAll('a[href^="#"]');
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+
+            // Add print functionality
+            const printBtn = document.querySelector('.print-btn');
+            if (printBtn) {
+                printBtn.addEventListener('click', function() {
+                    window.print();
+                });
+            }
+        });
+    </script>
+</body>
+</html>
