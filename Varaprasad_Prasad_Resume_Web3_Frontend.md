@@ -8,7 +8,7 @@
 
 ## 🎯 **PROFESSIONAL SUMMARY**
 
-Lead Engineer with **5+ years** of hands-on React experience, currently driving frontend architecture at HighLevel CRM serving **100,000+ users**. Expert in modern React ecosystem with proven ability to scale large applications using Redux-Saga, TypeScript, and advanced architectural patterns. Recently diving deep into **Web3 development** with demonstrated ability to build production-ready dApps and wallet integrations. Proven track record in **technical leadership**, **performance optimization** (60% improvement), and **cross-domain expertise** in EdTech, FinTech, and CRM platforms.
+Lead Engineer with **5+ years** of hands-on React experience, currently driving frontend architecture at HighLevel CRM serving **100,000+ users**. Expert in modern React ecosystem with proven ability to scale large applications using Redux-Saga, TypeScript, and advanced architectural patterns. **Rapid career progression:** Advanced from Intern to SDE2 at Vedantu in 1 year, then Senior to Lead Engineer at HighLevel. Recently diving deep into **Web3 development** with demonstrated ability to build production-ready dApps and wallet integrations. Proven track record in **technical leadership**, **performance optimization** (60% improvement), and **cross-domain expertise** in EdTech, FinTech, and CRM platforms.
 
 ---
 
@@ -55,11 +55,13 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 - **Security Implementation**: Payment security, data encryption, secure API communication
 - **Database Integration**: MongoDB, PostgreSQL integration with optimized query performance
 
-### **Software Engineering Intern** | Vedantu (EdTech) | *2021 - 2022*
+### **Software Development Engineer I & II** | Vedantu (EdTech) | *2021 - 2022*
+- **Career Progression**: Started as Intern → SDE1 → SDE2 based on exceptional performance
 - **EdTech Platform**: Contributed to learning management system serving thousands of students
 - **React Development**: Built interactive learning components, student dashboards, progress tracking
 - **Real-time Features**: Live class interfaces, chat systems, real-time collaboration tools
 - **Performance Focus**: Optimized video streaming interfaces and interactive learning modules
+- **Technical Growth**: Rapid advancement from intern to SDE2 within 1 year
 
 ---
 
@@ -114,7 +116,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 
 ### **Leadership & Growth**
 - **Team Leadership**: Led frontend architecture decisions, mentored 5+ developers
-- **Promotion Track Record**: Promoted from Intern → Engineer → Senior → Lead in 4 years
+- **Rapid Career Growth**: Intern → SDE2 (Vedantu, 1 year) → Senior → Lead Engineer (HighLevel)
 - **Cross-Domain Expertise**: Successfully delivered projects in EdTech, FinTech, CRM domains
 - **Rapid Learning**: Mastered Web3 development concepts and built working demos in 2 hours
 
