@@ -56,12 +56,18 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 - **Database Integration**: MongoDB, PostgreSQL integration with optimized query performance
 
 ### **Software Development Engineer I & II** | Vedantu (EdTech) | *2021 - 2022*
-- **Career Progression**: Started as Intern → SDE1 → SDE2 based on exceptional performance
+- **Career Progression**: Promoted from Intern to SDE1 → SDE2 based on exceptional performance
 - **EdTech Platform**: Contributed to learning management system serving thousands of students
 - **React Development**: Built interactive learning components, student dashboards, progress tracking
 - **Real-time Features**: Live class interfaces, chat systems, real-time collaboration tools
 - **Performance Focus**: Optimized video streaming interfaces and interactive learning modules
-- **Technical Growth**: Rapid advancement from intern to SDE2 within 1 year
+- **Technical Leadership**: Mentored junior developers, led feature development
+
+### **Software Engineering Intern** | Vedantu (EdTech) | *2019 - 2021*
+- **Foundation Building**: Started as intern while completing Bachelor's degree
+- **Learning & Development**: Gained hands-on experience in React, JavaScript, and web development
+- **EdTech Exposure**: Contributed to educational platform features and student interfaces
+- **Rapid Growth**: Demonstrated exceptional learning ability leading to full-time promotion
 
 ---
 
