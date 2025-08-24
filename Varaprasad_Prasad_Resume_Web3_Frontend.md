@@ -21,7 +21,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 - **dApp UX Patterns**: Professional error handling, loading states, wallet authorization flows
 - **Web3 Libraries**: Ethers.js for blockchain interaction, Web3 Provider architecture
 
-### **Live Web3 Demos** (Built in 2 hours)
+### **Live Web3 Demos** (Quick Learning Showcase)
 - **Real Implementation**: [varaprasad.dev/web3-demo.html](https://www.varaprasad.dev/web3-demo.html) - Live MetaMask integration
 - **Simulation Demo**: [varaprasad.dev/web3-demo-simulation.html](https://www.varaprasad.dev/web3-demo-simulation.html) - Complete UX flow
 
@@ -34,7 +34,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 
 ## 💼 **PROFESSIONAL EXPERIENCE**
 
-### **Lead Engineer** | HighLevel CRM | *Jan 2025 - Present*
+### **Lead Engineer** | HighLevel CRM | *May 2025 - Present*
 - **Promoted from Senior to Lead Engineer** based on exceptional performance and technical leadership
 - **Architecture Leadership**: Drive frontend architecture decisions for CRM platform serving 100k+ users
 - **Team Mentoring**: Lead code reviews, mentor junior developers, contribute to architectural decisions
@@ -42,7 +42,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 - **Real-time Systems**: Built chat systems, notification systems, and real-time data synchronization
 - **Tech Stack**: React, Redux-Saga, TypeScript, Tailwind CSS, React Query, Node.js, MongoDB
 
-### **Senior Software Engineer** | HighLevel CRM | *2023 - 2024*
+### **Senior Software Engineer** | HighLevel CRM | *July 2024 - May 2025*
 - **Scalable Frontend Development**: Built React components and features handling 100k+ concurrent users
 - **Redux-Saga Implementation**: Complex async flow orchestration, middleware management, side effects
 - **Component Architecture**: Feature Slices Design implementation for modular, scalable frontend
@@ -131,7 +131,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 ## 🎓 **EDUCATION & CERTIFICATIONS**
 
 ### **Bachelor of Technology - Computer Science**
-**Indian Institute of Technology, Kanpur** | *2016 - 2020*
+**Rajiv Gandhi University of Knowledge Technologies, Nuzvid, Andhra Pradesh** | *2016 - 2020*
 - **Relevant Coursework**: Data Structures, Algorithms, Software Engineering, Database Systems
 - **Projects**: Built multiple full-stack applications, participated in hackathons
 - **Technical Skills**: Strong foundation in computer science fundamentals
@@ -171,7 +171,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 - **Cross-functional Collaboration**: Worked effectively with backend, product, and design teams
 
 ### **Problem Solving & Innovation**
-- **Rapid Learning**: Quickly mastered new technologies (Web3 in 2 hours demo)
+- **Rapid Learning**: Quickly mastered new technologies (Web3 development)
 - **Performance Focus**: Consistently delivered performance improvements across projects
 - **User Experience**: Strong focus on creating intuitive, accessible user interfaces
 
@@ -208,7 +208,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 ### **Web3 Demonstrations**
 - **Real MetaMask Integration**: [varaprasad.dev/web3-demo.html](https://www.varaprasad.dev/web3-demo.html)
 - **Simulation Demo**: [varaprasad.dev/web3-demo-simulation.html](https://www.varaprasad.dev/web3-demo-simulation.html)
-- **Development Time**: 2 hours (demonstrates rapid learning ability)
+- **Development Approach**: Quick learning and implementation showcase
 
 ---
 
