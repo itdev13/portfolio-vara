@@ -200,24 +200,6 @@
             background: #2980b9;
         }
 
-        .print-btn {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background: #3498db;
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 600;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        .print-btn:hover {
-            background: #2980b9;
-        }
-
         @media print {
             body {
                 background: white;
@@ -227,14 +209,36 @@
                 box-shadow: none;
                 padding: 20px;
             }
-            .print-btn {
-                display: none;
-            }
         }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #3498db;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            flex-shrink: 0;
+        }
+
+        .header-text {
+            text-align: center;
+        }
+
+
 
         @media (max-width: 768px) {
             .container {
-                padding: 20px;
+                padding: 10px;
             }
             .job-header {
                 flex-direction: column;
@@ -242,18 +246,47 @@
             .contact-info {
                 flex-direction: column;
                 text-align: center;
+                gap: 8px;
+            }
+            .contact-info:last-of-type {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 6px 0px;
+                margin-top: 15px;
+            }
+            .header-content {
+                flex-direction: column;
+                gap: 15px;
+                margin-bottom: 15px;
+            }
+            .profile-image {
+                width: 100px;
+                height: 100px;
+            }
+            .header-text h1 {
+                font-size: 1.8rem;
+                line-height: 1.2;
+                margin-bottom: 8px;
+            }
+            .subtitle {
+                font-size: 0.9rem;
+                line-height: 1.3;
+            }
+            .section {
+                margin-bottom: 20px;
+            }
+            .section h2 {
+                margin-bottom: 12px;
             }
         }
     </style>
 </head>
 <body>
-    <button class="print-btn" onclick="window.print()">📄 Print/Save PDF</button>
-
     <div class="container">
         <div class="header">
-            <div style="display: flex; align-items: center; justify-content: center; gap: 30px; margin-bottom: 20px; flex-wrap: wrap;">
-                <img src="/jvvprasad.jpg" alt="Varaprasad Prasad" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 4px solid #3498db; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                <div style="text-align: center;">
+            <div class="header-content">
+                <img src="/jvvprasad.jpg" alt="Venkata VaraPrasad Jaladanki" class="profile-image">
+                <div class="header-text">
                     <h1>Venkata VaraPrasad Jaladanki</h1>
                     <div class="subtitle">Lead Engineer | Full Stack Developer | Technical Architect</div>
                 </div>
