@@ -36,11 +36,11 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 
 ### **Lead Engineer** | HighLevel CRM | *May 2025 - Present*
 - **Promoted from Senior to Lead Engineer** based on exceptional performance and technical leadership
-- **Architecture Leadership**: Drive frontend architecture decisions for CRM platform serving 100k+ users
+- **Architecture Leadership**: Drive frontend architecture decisions for CRM platform serving 100k+ users, handling 1B+ messages daily
 - **Team Mentoring**: Lead code reviews, mentor junior developers, contribute to architectural decisions
 - **Performance Optimization**: Achieved 60% performance improvement through React optimization techniques
 - **Real-time Systems**: Built chat systems, notification systems, and real-time data synchronization
-- **Tech Stack**: React, Redux-Saga, TypeScript, Tailwind CSS, React Query, Node.js, MongoDB
+- **Tech Stack**: React, Vue.js, Redux-Saga, TypeScript, Tailwind CSS, React Query, Node.js, MongoDB
 
 ### **Senior Software Engineer** | HighLevel CRM | *July 2024 - May 2025*
 - **Scalable Frontend Development**: Built React components and features handling 100k+ concurrent users
@@ -80,6 +80,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 
 ### **Frontend Mastery**
 - **React Ecosystem**: 5+ years commercial experience, Hooks, Context API, Advanced patterns
+- **Vue.js**: Component-based development, reactive data binding, modern Vue ecosystem
 - **Redux & State Management**: Redux-Saga (advanced), Redux Toolkit, Context API, Zustand
 - **TypeScript**: Strong typing, Generics, Advanced props/state typing, API integrations
 - **Styling & UI**: Advanced Tailwind CSS, Shadcn UI customization, Responsive design, CSS-in-JS
@@ -157,7 +158,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 - **Security & Compliance**: Payment security, data protection, regulatory compliance
 
 ### **CRM (Customer Relationship Management)**
-- **Scalable Platforms**: 100k+ user systems, real-time data synchronization
+- **Scalable Platforms**: 100k+ user systems, real-time messaging handling 1B+ messages daily
 - **Complex Workflows**: Business process automation, workflow management
 - **Performance Optimization**: Large-scale application optimization, caching strategies
 
@@ -187,7 +188,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 - **Availability**: Immediate start for full-time remote work
 
 - **Work Style**: Independent contributor with strong architectural decision-making
-- **Time Zone**: Flexible for US/EU collaboration (Indian Standard Time)
+
 - **Remote Experience**: 2+ years of successful remote work at HighLevel
 
 ---
