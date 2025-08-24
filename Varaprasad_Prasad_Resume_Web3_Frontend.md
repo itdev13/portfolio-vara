@@ -1,5 +1,5 @@
-# Varaprasad Prasad (Vara Jaladanki)
-**Lead Engineer | Web3 Frontend Specialist | Full Stack Developer**
+# Venkata VaraPrasad Jaladanki
+**Lead Engineer | Full Stack Developer | Technical Architect**
 
 📧 jvvprasad123@gmail.com | 📱 +91-9502803691 | 📍 Bangalore, India  
 🌐 Portfolio: [varaprasad.dev](https://www.varaprasad.dev) | 💼 LinkedIn: [linkedin.com/in/2116](https://linkedin.com/in/2116) | ⚡ GitHub: [github.com/itdev13](https://github.com/itdev13) | 🐦 Twitter: [@J_VARAPRASAD9](https://twitter.com/J_VARAPRASAD9)
