@@ -40,7 +40,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 - **Team Mentoring**: Lead code reviews, mentor junior developers, contribute to architectural decisions
 - **Performance Optimization**: Achieved 60% performance improvement through React optimization techniques
 - **Real-time Systems**: Built chat systems, notification systems, and real-time data synchronization
-- **Tech Stack**: React, Vue.js, Redux-Saga, TypeScript, Tailwind CSS, React Query, Node.js, MongoDB
+- **Tech Stack**: React, Next.js, Vue.js, Redux-Saga, TypeScript, Tailwind CSS, React Query, Node.js, Java, MongoDB, Firestore
 
 ### **Senior Software Engineer** | HighLevel CRM | *July 2024 - May 2025*
 - **Scalable Frontend Development**: Built React components and features handling 100k+ concurrent users
@@ -80,6 +80,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 
 ### **Frontend Mastery**
 - **React Ecosystem**: 5+ years commercial experience, Hooks, Context API, Advanced patterns
+- **Next.js**: Full-stack React framework, SSR, SSG, API routes, performance optimization
 - **Vue.js**: Component-based development, reactive data binding, modern Vue ecosystem
 - **Redux & State Management**: Redux-Saga (advanced), Redux Toolkit, Context API, Zustand
 - **TypeScript**: Strong typing, Generics, Advanced props/state typing, API integrations
@@ -93,7 +94,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 - **Performance**: Web Vitals optimization, Lighthouse scoring, Bundle optimization, Lazy loading
 
 ### **Backend & DevOps**
-- **Backend Technologies**: Node.js, Express.js, RESTful APIs, WebSocket, gRPC
+- **Backend Technologies**: Node.js, Java, Express.js, RESTful APIs, WebSocket, gRPC
 - **Databases**: MongoDB, PostgreSQL, Redis, Elasticsearch, Firestore
 - **Cloud & DevOps**: AWS (EC2, S3, Lambda), Docker, Kubernetes, Microservices
 - **CI/CD Pipelines**: Jenkins, GitLab CI/CD, Bitbucket Pipelines, GitHub Actions
