@@ -118,7 +118,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 - **Team Leadership**: Led frontend architecture decisions, mentored 5+ developers
 - **Rapid Career Growth**: Intern → SDE2 (Vedantu, 1 year) → Senior → Lead Engineer (HighLevel)
 - **Cross-Domain Expertise**: Successfully delivered projects in EdTech, FinTech, CRM domains
-- **Rapid Learning**: Mastered Web3 development concepts and built working demos in 2 hours
+- **Rapid Learning**: Quickly mastered new technologies (Web3 development)
 
 ### **Technical Innovation**
 - **Feature Slices Architecture**: Implemented modular frontend architecture for scalability
@@ -185,7 +185,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 ## 🎯 **AVAILABILITY & PREFERENCES**
 
 - **Availability**: Immediate start for full-time remote work
-- **Salary Expectation**: $8,500 - $9,000/month (based on Lead Engineer experience)
+
 - **Work Style**: Independent contributor with strong architectural decision-making
 - **Time Zone**: Flexible for US/EU collaboration (Indian Standard Time)
 - **Remote Experience**: 2+ years of successful remote work at HighLevel
