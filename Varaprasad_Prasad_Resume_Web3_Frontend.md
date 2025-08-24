@@ -133,7 +133,7 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 ## 🎓 **EDUCATION & CERTIFICATIONS**
 
 ### **Bachelor of Technology - Computer Science**
-**Rajiv Gandhi University of Knowledge Technologies, Nuzvid, Andhra Pradesh** | *2016 - 2020*
+**Rajiv Gandhi University of Knowledge Technologies, Nuzvid, Andhra Pradesh** | *2017 - 2021*
 - **Relevant Coursework**: Data Structures, Algorithms, Software Engineering, Database Systems
 - **Projects**: Built multiple full-stack applications, participated in hackathons
 - **Technical Skills**: Strong foundation in computer science fundamentals
