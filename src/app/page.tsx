@@ -257,6 +257,14 @@ export default function Home() {
               >
                 View My Work
               </button>
+              <a
+                href="/varaprasad latest resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-3 bg-purple-600 hover:bg-purple-700 text-white rounded-lg font-medium transition-colors text-center inline-flex items-center justify-center gap-2"
+              >
+                📄 Download Resume
+              </a>
               <button
                 onClick={() => scrollToSection('contact')}
                 className="px-8 py-3 border cursor-pointer border-gray-300 dark:border-gray-600 hover:border-blue-600 dark:hover:border-blue-400 text-gray-700 dark:text-gray-300 rounded-lg font-medium transition-colors"
@@ -1466,7 +1474,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-6">
             <a 
               href="mailto:jvvprasad123@gmail.com"
               className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 shadow-sm hover:shadow-lg transition-all hover:scale-105 text-center group"
@@ -1487,6 +1495,19 @@ export default function Home() {
               </div>
               <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Phone</h3>
               <p className="text-gray-600 dark:text-gray-300 text-sm">9502803691</p>
+            </a>
+
+            <a 
+              href="/varaprasad latest resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 shadow-sm hover:shadow-lg transition-all hover:scale-105 text-center group"
+            >
+              <div className="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-purple-700 transition-colors">
+                <span className="text-white font-bold">📄</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Resume</h3>
+              <p className="text-gray-600 dark:text-gray-300 text-sm">Download PDF</p>
             </a>
 
             <a 
