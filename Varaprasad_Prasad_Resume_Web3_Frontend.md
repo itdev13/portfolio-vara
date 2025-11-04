@@ -8,7 +8,7 @@
 
 ## 🎯 **PROFESSIONAL SUMMARY**
 
-Lead Engineer with **5+ years** of hands-on React experience, currently driving frontend architecture at HighLevel CRM serving **100,000+ users**. Expert in modern React ecosystem with proven ability to scale large applications using Redux-Saga, TypeScript, and advanced architectural patterns. **Rapid career progression:** Advanced from Intern to SDE2 at Vedantu in 1 year, then Senior to Lead Engineer at HighLevel. Proven track record in **technical leadership**, **performance optimization** (60% improvement), and **cross-domain expertise** in EdTech, FinTech, and CRM platforms.
+Lead Engineer with **5+ years** of hands-on React experience, currently driving frontend and backend architecture at HighLevel CRM serving **100,000+ users**. Expert in modern React ecosystem with proven ability to scale large applications using Redux-Saga, TypeScript, and advanced architectural patterns. **Rapid career progression:** Advanced from Intern to SDE2 at Vedantu in 1 year, then Senior to Lead Engineer at HighLevel. Proven track record in **technical leadership**, **performance optimization** (60% improvement), and **cross-domain expertise** in EdTech, FinTech, and CRM platforms.
 
 ---
 
