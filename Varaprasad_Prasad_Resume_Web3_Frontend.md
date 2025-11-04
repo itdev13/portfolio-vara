@@ -12,26 +12,6 @@ Lead Engineer with **5+ years** of hands-on React experience, currently driving 
 
 ---
 
-## 🚀 **WEB3 & BLOCKCHAIN EXPERIENCE**
-
-### **Web3 Frontend Development**
-- **MetaMask Integration**: Built production-ready wallet connection systems with real-time blockchain data
-- **Multi-Network Support**: Ethereum, Polygon, BSC network detection and switching
-- **Blockchain State Management**: Real-time balance updates, transaction status tracking
-- **dApp UX Patterns**: Professional error handling, loading states, wallet authorization flows
-- **Web3 Libraries**: Ethers.js for blockchain interaction, Web3 Provider architecture
-
-### **Live Web3 Demos** (Quick Learning Showcase)
-- **Real Implementation**: [varaprasad.dev/web3-demo.html](https://www.varaprasad.dev/web3-demo.html) - Live MetaMask integration
-- **Simulation Demo**: [varaprasad.dev/web3-demo-simulation.html](https://www.varaprasad.dev/web3-demo-simulation.html) - Complete UX flow
-
-### **Web3 Learning Commitment**
-- **Wagmi Ecosystem**: React hooks for Ethereum, WalletConnect patterns
-- **Smart Contract Integration**: Understanding of contract interaction patterns
-- **DeFi Protocols**: Familiar with decentralized finance application architecture
-
----
-
 ## 💼 **PROFESSIONAL EXPERIENCE**
 
 ### **Lead Engineer** | HighLevel CRM | *May 2025 - Present*
